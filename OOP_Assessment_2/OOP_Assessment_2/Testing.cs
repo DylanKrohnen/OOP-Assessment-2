@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOP_Assessment_2
 {
-    internal class SevensOut
+    internal class Testing
     {
     }
 }

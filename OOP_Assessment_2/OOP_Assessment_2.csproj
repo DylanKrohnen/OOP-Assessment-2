@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA3741A3-A302-455B-B7DE-5151AF59836C}</ProjectGuid>
+    <ProjectGuid>{9E9E7E38-E58C-4A30-A19E-0406927589B5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>OOP_Assessment_2</RootNamespace>
-    <AssemblyName>OOP Assessment 2</AssemblyName>
+    <AssemblyName>OOP_Assessment_2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,8 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Die.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SevensOut.cs" />
+    <Compile Include="Statistics.cs" />
+    <Compile Include="Testing.cs" />
+    <Compile Include="ThreeOrMore.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

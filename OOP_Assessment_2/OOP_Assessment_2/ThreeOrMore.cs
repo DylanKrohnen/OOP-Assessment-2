@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace OOP_Assessment_2
 {
-    internal class Program
+    internal class ThreeOrMore
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
 }
