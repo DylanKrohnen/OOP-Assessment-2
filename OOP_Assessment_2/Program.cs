@@ -19,25 +19,29 @@ namespace OOP_Assessment_2
                 if (gameOption == "1")
                 {
                     //Senvens Out
-                    new SevensOut();
+
+                    Game rn = new Game();
+
+                    rn.SevensGame();
+
                     gameOption = null;
                 }
                 else if (gameOption == "2")
                 {
                     //Three or more
-                    new ThreeOrMore();
+                    
                     gameOption = null;
                 }
                 else if (gameOption == "3")
                 {
                     //Game stats
-                    new Statistics();
+                    
                     gameOption = null;
                 }
                 else if (gameOption == "4")
                 {
                     //Testing
-                    new Testing();
+                    
                     gameOption = null;
                 }
                 else if (gameOption == "5")
