@@ -11,7 +11,8 @@ namespace OOP_Assessment_2
         static void Main(string[] args)
         {
             string gameOption = null;
-            while (gameOption == null)
+            Game rn = new Game();
+            while (gameOption == null) // Will continue to show the menu options until a valid option is picked.
             {
                 Console.WriteLine("Type the number for what you would like to do.\n1. Start sevens out game.\n2. Start three or more game.\n3. View game statistics.\n4. Perform tests.\n5. Exit program.");
                 gameOption = Console.ReadLine();
@@ -19,30 +20,30 @@ namespace OOP_Assessment_2
                 if (gameOption == "1")
                 {
                     //Senvens Out
+                    rn.SevensGame(); // Starts a new sevens out game.
 
-                    Game rn = new Game();
-
-                    rn.SevensGame();
-
-                    gameOption = null;
+                    gameOption = null; // Allows the user to pick another menu option.
                 }
                 else if (gameOption == "2")
                 {
                     //Three or more
-                    
+                    rn.ThreeOrMoreGame();
+
                     gameOption = null;
                 }
                 else if (gameOption == "3")
                 {
                     //Game stats
                     
-                    gameOption = null;
+                   
+                    gameOption = null; // Allows the user to pick another menu option.
                 }
                 else if (gameOption == "4")
                 {
                     //Testing
-                    
-                    gameOption = null;
+                    Testing te = new Testing(); // Starts testing.
+
+                    gameOption = null; // Allows the user to pick another menu option.
                 }
                 else if (gameOption == "5")
                 {
