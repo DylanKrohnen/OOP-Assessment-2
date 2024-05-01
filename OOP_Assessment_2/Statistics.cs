@@ -1,15 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace OOP_Assessment_2
 {
-    internal class Program
+    internal class Statistics
     {
-        static void Main(string[] args)
-        {
-        }
+
     }
 }

@@ -8,5 +8,6 @@ namespace OOP_Assessment_2
 {
     internal class ThreeOrMore
     {
+
     }
 }
